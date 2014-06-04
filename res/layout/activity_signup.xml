@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:gravity="center"
+    android:orientation="vertical" >
+ 
+    <TextView
+        android:id="@+id/LblUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"  />
+ 
+    <EditText
+        android:id="@+id/TxtUser"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text">
+    </EditText>
+    
+    <TextView
+        android:id="@+id/LblEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email" 
+		android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <EditText
+        android:id="@+id/TxtEmail"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress">
+    </EditText>
+    
+    <TextView
+        android:id="@+id/LblSignupPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_pwd" 
+		android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <EditText
+        android:id="@+id/TxtSignupPwd"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword">
+    </EditText>
+    
+    <TextView
+        android:id="@+id/LblSignupPwd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_pwd2" 
+		android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+     <EditText
+        android:id="@+id/TxtSignupPwd2"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword">
+    </EditText>
+   
+    
+    <Button
+        android:id="@+id/BtnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup" />
+     
+</LinearLayout>
