@@ -15,7 +15,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 
  
-public class FormSignup extends Activity {
+public class FrmSignup extends Activity {
 	
 	
     @Override
@@ -36,7 +36,7 @@ public class FormSignup extends Activity {
              public void onClick(View v) {
                   //Creamos el Intent
                   Intent intent =
-                          new Intent(FormSignup.this, FrmIn.class);
+                          new Intent(FrmSignup.this, MainActivity.class);
                   
                   if(txtPwd.getText().toString().equals(txtPwd2.getText().toString())){
                   //Creamos la información a pasar entre actividades
