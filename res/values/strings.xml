@@ -13,8 +13,9 @@
     <string name="signup_name">Log in</string>  
     <string name="signup_pwd">Escribe una contraseña</string>
     <string name="signup_pwd2">Vuelva a introducir la contraseña</string>
-    <string name="title_activity_main">Login</string>
-    <string name="title_activity_in">Bienvenido a Netsound</string>
+    <string name="title_activity_signin">Login</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_main">Home</string>
     <string name="or">¿Eres nuevo en Netsound?</string>
     
     
