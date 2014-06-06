@@ -12,7 +12,7 @@
         android:id="@+id/LblUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="friends"
+        android:text="friends1"
         android:textColor="@android:color/white"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 

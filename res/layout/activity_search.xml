@@ -13,9 +13,28 @@
         android:id="@+id/LblUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="search"
+        android:text="Buscar"
         android:textColor="@android:color/white"
         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/TxtUser"
+        android:textColor="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint=”Round”
+        android:padding=”100dp” 
+        android:background="@android:color/white"/>
+        
+        <EditText
+android:layout_width=”fill_parent”
+android:layout_height=”wrap_content”
+android:background=”@drawable/round”
+android:hint=”Round Corners”
+android:padding=”8dp” />
+        
+    </EditText>
 
     
  

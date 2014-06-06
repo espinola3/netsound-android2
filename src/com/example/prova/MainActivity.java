@@ -6,8 +6,8 @@ import android.widget.ListView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -30,10 +30,9 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
  
-        opcionesMenu = new String[] {"Mi perfil", "Mis canciones", "Mis playlist","Amigos","Buscar"};
+        opcionesMenu = new String[] {"Mi perfil","Mis canciones", "Mis playlist","Amigos","Buscar"};
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerList = (ListView) findViewById(R.id.left_drawer);
- 
         drawerList.setAdapter(new ArrayAdapter<String>(
                 getSupportActionBar().getThemedContext(),
             android.R.layout.simple_list_item_1, opcionesMenu));
@@ -45,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
      
                 Fragment fragment = null;
      
-                switch (position) {
+                switch (position+1) {
                     case 1:
                         fragment = new MyProfile();
                         break;
